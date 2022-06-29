@@ -20,6 +20,42 @@ const initialBooks = {
       author: "J.K. Rowling",
       year: "1999",
     },
+    {
+      id: uuidv4(),
+      title: "Harry Potter and the Goblet of Fire",
+      author: "J.K. Rowling",
+      year: "2000",
+    },
+    {
+      id: uuidv4(),
+      title: "Harry Potter and the Order of the Phoenix",
+      author: "J.K. Rowling",
+      year: "2003",
+    },
+    {
+      id: uuidv4(),
+      title: "Harry Potter and the Half-Blood Prince",
+      author: "J.K. Rowling",
+      year: "2005",
+    },
+    {
+      id: uuidv4(),
+      title: "Harry Potter and the Deathly Hallows",
+      author: "J.K. Rowling",
+      year: "2007",
+    },
+    {
+      id: uuidv4(),
+      title: "The Hobbit",
+      author: "J.R.R. Tolkien",
+      year: "1937",
+    },
+    {
+      id: uuidv4(),
+      title: "The Fellowship of the Ring",
+      author: "J.R.R. Tolkien",
+      year: "1954",
+    },
   ],
 };
 export const booksSlice = createSlice({

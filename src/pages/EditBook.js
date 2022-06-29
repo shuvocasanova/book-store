@@ -7,7 +7,7 @@ const EditBook = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const navigate = useNavigate();
-  const [id, setID] = useState(location.state.id);
+  const [id] = useState(location.state.id);
   const [title, setTitle] = useState(location.state.title);
   const [author, setAuthor] = useState(location.state.author);
   const [year, setYear] = useState(location.state.year);
